@@ -49,8 +49,8 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/[YOUR_REPO_NAME].git
-    cd [YOUR_REPO_NAME]
+    git clone [https://github.com/](https://github.com/)[suseendhar/]/[ScreenshotToggler].git
+    cd [ScreenshotToggler]
     ```
 2.  **Install JavaScript dependencies:**
     ```bash
