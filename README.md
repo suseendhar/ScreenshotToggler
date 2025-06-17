@@ -19,28 +19,6 @@ This is a React Native application for Android and iOS that allows users to togg
 
 ## Demo (Screenshots/GIFs - Optional)
 
-<!-- You can add screenshots or a GIF of the app running here -->
-
-## Project Structure
-
-ReactNativeScreenshotToggler/
-├── android/                   # Android native project files (Kotlin)
-├── ios/                       # iOS native project files (Objective-C++)
-├── src/
-│   ├── assets/                # App logo, images (e.g., arrow_icon.png, logo.png)
-│   ├── components/            # Reusable UI components (e.g., CustomToggleButton)
-│   ├── nativeModules/         # Custom native module interfaces (TypeScript)
-│   ├── screens/               # Main application screens (e.g., HomeScreen with its styles)
-│   ├── services/              # API integration logic
-│   ├── types/                 # TypeScript type definitions
-│   ├── App.tsx                # Root component
-│   └── index.ts               # Entry point
-├── package.json
-├── tsconfig.json
-├── .gitignore                 # Specifies intentionally untracked files
-└── README.md                  # This file
-
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
