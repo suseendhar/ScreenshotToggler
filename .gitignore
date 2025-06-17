@@ -72,3 +72,65 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Node
+node_modules/
+.npm
+.yarn/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Metro
+.bundle/
+
+# Android
+/android/.gradle
+/android/app/build
+/android/build
+/android/app/.cxx
+/android/app/.externalNativeBuild
+/android/app/src/main/assets/
+/android/app/src/main/res/
+/android/app/src/main/libs/
+/android/.idea
+/android/local.properties
+/android/.DS_Store
+/android/captures
+/android/gradle/wrapper/gradle-wrapper.jar
+/android/app/src/debug/java
+/android/app/src/release/java
+# Android Studio
+.idea/
+.gradle/
+*.iml
+*.iws
+*.ipr
+
+# iOS
+/ios/build/
+/ios/Pods/
+/ios/.xcode.env.local
+/ios/.build
+/ios/*.xcworkspace
+/ios/*.lock
+/ios/.DS_Store
+/ios/Generated
+/ios/*.xcodeproj/project.xcworkspace
+/ios/*.xcodeproj/xcuserdata/
+/ios/*.xcodeproj/xcshareddata/
+/ios/Podfile.lock # Important: ensure this is ignored if it gets recreated unexpectedly
+
+# macOS
+.DS_Store
+DerivedData/
+
+# IDE files
+.vscode/
+.idea/
+
+# Local configuration and environment variables
+.env
+.env.local

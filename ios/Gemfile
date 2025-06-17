@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+ruby '3.3.0' # Ensure this matches your rbenv global Ruby version
+
+gem 'cocoapods', '~> 1.14.0' # Using a ve

@@ -10,6 +10,9 @@ import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load
 import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.soloader.SoLoader
+import com.reactnativescreenshottoggler.ScreenshotPackage // Adjust package name if different
+import com.reactnativescreenshottoggler.DeviceInfoPackage // Adjust package name if different
+
 
 class MainApplication : Application(), ReactApplication {
 
@@ -19,6 +22,8 @@ class MainApplication : Application(), ReactApplication {
             PackageList(this).packages.apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:
               // add(MyReactNativePackage())
+              add(ScreenshotPackage())
+              add(DeviceInfoPackage()) 
             }
 
         override fun getJSMainModuleName(): String = "index"
